@@ -1,0 +1,144 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+#navbar {
+    width: 100%;
+	margin: auto;
+	text-align: left;
+    background-color: black;
+}
+
+#navbar ul {
+	list-style-type: none;
+    margin:0;
+	font-size: 22px;
+    text-align: center;
+}
+
+#navbar ul li {
+	display: inline-block;
+}
+
+#navbar ul li a{
+    color: #ccc;
+    display: block;
+    padding: 5px 60px;
+    font-weight: 300;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+#navbar ul li a:hover {
+	background-color: #333;
+    color: #099;
+    text-decoration: none;
+}
+
+#img1, #img2, #img3, #img4{
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img1{
+    background-image:url('image5.jpeg');
+    min-height: 100%;
+}
+
+#img2{
+    background-image:url('image2.jpg');
+    min-height: 400px;
+}
+
+#img3{
+    background-image:url('image3.jpeg');
+    min-height: 400px;
+}
+
+#img4{
+    background-image:url('image4.jpeg');
+    min-height: 400px;
+}
+
+section{
+    background-color: #282e34;
+    color: #ddd;
+    text-align: center;
+    padding: 50px 80px;
+}
+section p{
+    text-align: center;
+}
+.text {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.smallPicText{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: right;
+    color: #999;
+    font-size: 8px;
+}
+
+/*takes away the fancy background for most mobile devices*/
+@media(max-width:480px){
+    #img1, #img2, #img3, #img4{
+        background-attachment: scroll;
+    }
+}
+
+
+#img11, #img12{
+    position: relative;
+    opacity: 0.9;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#img11{
+    background-image:url('image4.jpeg');
+    min-height: 100%;
+}
+
+#img12{
+    background-image:url('image4.jpeg');
+    min-height: 150px;
+}
+
+.htext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.border{
+    background-color: #fff;
+    color: #222;
+    padding: 20px;
+}
